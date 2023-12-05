@@ -5,7 +5,6 @@
 #You can stop and start the simulation at anytime. The simulation is set to run at 80 updates a second, Fps is displayed at the title of the window.
 
 import pygame
-import numpy as np
 import time
 import math
 
