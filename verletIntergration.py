@@ -249,7 +249,10 @@ while running:
                             if(math.dist([point.x,point.y],[pos[0],pos[1]]) <= 9):
                                     points.remove(point)
                                     for stick in sticks:
-                                        if(stick.p1 == point or stick.p2 == point):
+                                        if(points.count(stick.p1) <= 0 or points.count(stick.p2) <= 0 ):
+                                            sticks.remove(stick)
+                                    for stick in sticks:
+                                        if(points.count(stick.p1) <= 0 or points.count(stick.p2) <= 0 ):
                                             sticks.remove(stick)
                                     
                 if(event.button == 1 and connect == True):
@@ -257,6 +260,8 @@ while running:
                             if(math.dist([point.x,point.y],[pos[0],pos[1]]) <= 9):
                                 if(SelectedPoint1 == 0):
                                     SelectedPoint1 = point
+                                    break
+                                
                                 elif(SelectedPoint2 == 0 and point != SelectedPoint1):
                                     SelectedPoint2 = point
                                 
