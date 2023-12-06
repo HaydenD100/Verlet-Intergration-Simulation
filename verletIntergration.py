@@ -284,6 +284,7 @@ while running:
                         if(button == buttons[0]):
                             simulate = button.value
                         if(button == buttons[1]):
+                            connect = False
                             place = True
                             buttons[2].value = False
                             buttons[3].value = False
