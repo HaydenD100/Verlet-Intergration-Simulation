@@ -3,8 +3,9 @@ This is a simple simulation that I made using python and pygame for the GUI. Usi
 
 
 ------Screenshots of the simulation------
-![screenshot](/docs/assets/screenshot1.png)
 
 ![screenshot](/docs/assets/screenshot3.png)
+
+![screenshot](/docs/assets/screenshot1.png)
 
 ![screenshot](/docs/assets/screenshot2.png)
