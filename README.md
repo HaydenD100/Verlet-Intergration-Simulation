@@ -8,4 +8,6 @@ This is a simple simulation that I made using python and pygame for the GUI. Usi
 
 ![screenshot](/docs/assets/screenshot1.png)
 
+![screenshot](/docs/assets/screenshot4.png)
+
 ![screenshot](/docs/assets/screenshot2.png)
